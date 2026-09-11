@@ -28,7 +28,7 @@ That's it. The live site updates itself within a minute or two.
 | The page about the test itself | `test.html` |
 | The team, collaborators and contact details | `about.html` |
 
-Some things appear on **every** page — the menu at the top, and the whole footer including the
+Some things appear on **every** page: the menu at the top, and the whole footer including the
 address, phone number and the regulatory statement. Those have to be changed in all seven files.
 Use **Ctrl+F** (or **Cmd+F**) in the editor to find the text, and repeat for each file.
 
@@ -45,7 +45,7 @@ page content starts after a line that reads:
 
 Everything a visitor reads lives between `<main>` and `</main>`.
 
-Text sits between angle-bracket tags. To change a sentence, change only the words — leave the
+Text sits between angle-bracket tags. To change a sentence, change only the words, and leave the
 tags alone:
 
 ```html
@@ -72,30 +72,33 @@ Whatever you do to one, do to the other.
 | You want | Type this |
 |---|---|
 | an apostrophe, as in *baby's* | `&rsquo;` |
-| a dash — like this | `&mdash;` |
 | an ampersand | `&amp;` |
 | ~ (approximately) | `~` is fine as-is |
+
+The site does not use dashes as punctuation anywhere. Use a comma, a period, or the
+words "such as" instead.
 
 A plain `'` will usually work too; `&rsquo;` just looks better.
 
 **4. Don't touch anything inside `<style>` or `<script>`.** That's the layout and the menu.
+The same goes for anything starting with `<img`, which is how the logo is placed.
 
 ---
 
 ## Common edits
 
-**Change the phone number or address** — search for `409-935-6700` or `903 Texas Avenue`.
+**Change the phone number or address.** Search for `409-935-6700` or `903 Texas Avenue`.
 Both appear in the footer of all seven files, and again on `about.html`.
 
-**Change the regulatory statement** — search for `have not been cleared or approved`.
+**Change the regulatory statement.** Search for `have not been cleared or approved`.
 It appears in the footer of all seven files, and once more in the middle of `test.html`.
 This is the one edit most worth getting exactly right.
 
-**Add a team member** — open `about.html`, search for `Dr. Maryam Hussain`, and copy the whole
+**Add a team member.** Open `about.html`, search for `Dr. Maryam Hussain`, and copy the whole
 block from `<div class="card">` down to the matching `</div>`. Paste it directly underneath and
 change the name, title and description.
 
-**Update the state screening counts** — search for `Universal screening` in `index.html`.
+**Update the state screening counts.** Search for `Universal screening` in `index.html`.
 The numbers and the state name lists are right there. `labs.html` also mentions
 "Twenty-three states" in a drop-down answer near the bottom.
 
@@ -105,7 +108,7 @@ The numbers and the state name lists are right there. `labs.html` also mentions
 
 At the top of the editor there are two tabs: **Edit** and **Preview**.
 
-GitHub's Preview tab will *not* show you the finished page — it shows the raw code. To see the
+GitHub's Preview tab will *not* show you the finished page, it shows the raw code. To see the
 real page, make the change, commit it, and look at the live site a minute later. If it looks
 wrong, use the undo instructions below.
 
@@ -128,6 +131,6 @@ Nothing is ever really lost, so it is safe to experiment.
 Editing the words is safe. These are worth asking about first, because they touch the layout:
 
 - adding a whole new page
-- changing colours, fonts or spacing
-- adding photographs or a logo image
+- changing colors, fonts or spacing
+- adding photographs, or changing the logo
 - adding a working contact form (the current ones just open an email program)

@@ -5,16 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>For Parents & Expecting Families | Enavima</title>
 <meta name="description" content="How to lower your CMV risk during pregnancy, why the newborn hearing screen is not a CMV test, what to ask your provider in the first three weeks, and what happens after a positive result.">
-<meta name="theme-color" content="#0A1A29">
-<!-- PRE-LAUNCH: keeps this draft out of Google while it lives on a temporary URL.
-     DELETE the next line when the real domain goes live. -->
+<meta name="theme-color" content="#1E1633">
+<!-- Remove the next line once the site moves to its own domain. -->
 <meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://enavima.com/parents.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Enavima">
 <meta property="og:title" content="For Parents &amp; Expecting Families | Enavima">
 <meta property="og:description" content="How to lower your CMV risk during pregnancy, why the newborn hearing screen is not a CMV test, what to ask your provider in the first three weeks, and what happens after a positive result.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 2.6 34.8 11.1v17L20 36.6 5.2 28.1v-17z' fill='%230E2038'/%3E%3Cpath d='M13.4 20.3l4.6 4.6 8.6-9.2' stroke='%237AC943' stroke-width='3.3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta property="og:image" content="https://enavima.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;450;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
@@ -23,21 +27,34 @@
   --display:'Source Serif 4','Iowan Old Style',Georgia,'Times New Roman',serif;
   --sans:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-  --ink:#0D2030;
-  --ink-2:#3B4E5A;
-  --ink-3:#5C6E76;
-  --paper:#F5F8F6;
+  --ink:#171430;
+  --ink-2:#494461;
+  --ink-3:#635D7C;
+  --paper:#F6F8FB;
   --surface:#FFFFFF;
-  --tint:#EBF1EC;
-  --line:#DCE5DE;
-  --line-2:#C2D0C6;
-  --green:#2F7D33;
-  --green-bright:#7AC943;
-  --green-soft:#E4F0E1;
+  --tint:#ECF1F7;
+  --line:#DDE4EE;
+  --line-2:#C3CDDC;
+
+  /* Brand colors, exactly as they appear in the Enavima logo.
+     Use these for large type, rules, fills and graphics. */
+  --brand-blue:#2395D3;
+  --brand-purple:#73519D;
+
+  /* Working shades of the brand blue, darkened just enough that white
+     text and small type stay readable on them. */
+  --blue:#1A73A6;
+  --blue-hover:#15628E;
+  --blue-soft:#E4F1F9;
+  --blue-lift:#6FC5F0;
+
+  --purple-soft:#EFE9F5;
+  --purple-lift:#B9A3DC;
+
   --clay:#A8352C;
   --clay-soft:#F7ECEA;
-  --navy-deep:#0A1A29;
-  --shadow:0 1px 2px rgba(13,32,48,.04), 0 8px 24px -12px rgba(13,32,48,.18);
+  --deep:#1E1633;
+  --shadow:0 1px 2px rgba(23,20,48,.05), 0 8px 24px -12px rgba(23,20,48,.16);
   --r:14px;
   --r-lg:22px;
   --maxw:1180px;
@@ -55,7 +72,7 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;height:auto;display:block}
-a{color:var(--green);text-underline-offset:3px}
+a{color:var(--blue);text-underline-offset:3px}
 a:hover{color:var(--ink)}
 
 h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.14;letter-spacing:-.008em;margin:0 0 .5em;color:var(--ink);text-wrap:balance}
@@ -73,16 +90,16 @@ strong{font-weight:650;color:var(--ink)}
 .section--tight{padding:clamp(40px,4.5vw,64px) 0}
 .section--tint{background:var(--tint)}
 .section--paperw{background:var(--surface)}
-.section--dark{background:var(--navy-deep);color:#E7EDF5}
+.section--dark{background:var(--deep);color:#EAE6F4}
 .section--dark h1,.section--dark h2,.section--dark h3,.section--dark h4{color:#fff}
-.section--dark a{color:var(--green-bright)}
-.section--dark .eyebrow{color:var(--green-bright)}
-.section--dark .lede{color:#B9C6D8}
+.section--dark a{color:var(--blue-lift)}
+.section--dark .eyebrow{color:var(--purple-lift)}
+.section--dark .lede{color:#C9C2DC}
 .divider{height:1px;background:var(--line);border:0;margin:0}
 
 .eyebrow{
   font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--green);margin:0 0 15px;display:block;
+  color:var(--brand-purple);margin:0 0 15px;display:block;
 }
 .lede{font-size:clamp(1.06rem,1rem + .45vw,1.28rem);line-height:1.6;color:var(--ink-2);max-width:64ch}
 .small{font-size:.87rem;color:var(--ink-3);line-height:1.6}
@@ -95,10 +112,10 @@ strong{font-weight:650;color:var(--ink)}
   text-decoration:none;cursor:pointer;transition:transform .12s ease, background .15s ease, border-color .15s ease, color .15s ease;
 }
 .btn:active{transform:translateY(1px)}
-.btn--primary{background:var(--green);color:#fff;border-color:var(--green)}
-.btn--primary:hover{background:#357A29;color:#fff}
+.btn--primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn--primary:hover{background:#15628E;color:#fff}
 .btn--ghost{background:transparent;color:var(--ink);border-color:var(--line-2)}
-.btn--ghost:hover{border-color:var(--ink);color:var(--ink);background:rgba(14,32,56,.03)}
+.btn--ghost:hover{border-color:var(--ink);color:var(--ink);background:rgba(23,20,48,.04)}
 .section--dark .btn--ghost{color:#fff;border-color:rgba(255,255,255,.32)}
 .section--dark .btn--ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
 .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
@@ -106,25 +123,28 @@ strong{font-weight:650;color:var(--ink)}
 /* ---------- header ---------- */
 .site-head{
   position:sticky;top:0;z-index:60;
-  background:rgba(251,249,245,.88);
+  background:rgba(246,248,251,.92);
   backdrop-filter:saturate(1.6) blur(12px);
   -webkit-backdrop-filter:saturate(1.6) blur(12px);
   border-bottom:1px solid var(--line);
 }
 .head-in{display:flex;align-items:center;gap:22px;height:74px}
-.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);flex:0 0 auto}
-.brand svg{flex:0 0 auto}
-.brand-name{font-family:var(--display);font-size:1.42rem;font-weight:600;letter-spacing:-.028em;line-height:1}
-.brand-sub{display:block;font-family:var(--mono);font-size:.6rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);margin-top:3px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:var(--ink);flex:0 0 auto}
+.brand-logo{height:34px;width:auto;flex:0 0 auto}
+.brand-sub{
+  font-family:var(--mono);font-size:.575rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);line-height:1.4;padding-left:13px;border-left:1px solid var(--line-2);
+}
+@media (max-width:560px){.brand-sub{display:none}.brand-logo{height:30px}}
 .nav{margin-left:auto;display:flex;align-items:center;gap:4px}
 .nav a{
   font-size:.9rem;font-weight:500;color:var(--ink-2);text-decoration:none;
   padding:9px 13px;border-radius:8px;white-space:nowrap;
 }
-.nav a:hover{background:rgba(14,32,56,.05);color:var(--ink)}
-.nav a.is-active{color:var(--ink);font-weight:650;background:var(--green-soft)}
+.nav a:hover{background:rgba(23,20,48,.06);color:var(--ink)}
+.nav a.is-active{color:var(--ink);font-weight:650;background:var(--blue-soft)}
 .nav .btn{margin-left:10px;padding:11px 20px;font-size:.88rem}
-.nav .btn:hover{background:#357A29}
+.nav .btn:hover{background:#15628E}
 .nav-toggle{display:none;margin-left:auto;background:none;border:1px solid var(--line-2);border-radius:9px;padding:9px 11px;cursor:pointer;color:var(--ink)}
 
 @media (max-width:960px){
@@ -144,7 +164,7 @@ strong{font-weight:650;color:var(--ink)}
 .hero{padding:clamp(52px,6.5vw,96px) 0 clamp(48px,5.5vw,80px);position:relative;overflow:hidden}
 .hero::after{
   content:'';position:absolute;inset:auto -240px -320px auto;width:640px;height:640px;border-radius:50%;
-  background:radial-gradient(circle at 40% 40%, rgba(122,201,67,.14), rgba(122,201,67,0) 68%);
+  background:radial-gradient(circle at 40% 40%, rgba(35,149,211,.18), rgba(35,149,211,0) 68%);
   pointer-events:none;
 }
 .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,4vw,64px);align-items:center;position:relative;z-index:1}
@@ -157,7 +177,7 @@ strong{font-weight:650;color:var(--ink)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border-block:1px solid var(--line)}
 .stat{background:var(--paper);padding:30px 26px}
 .stat .num{font-family:var(--display);font-size:clamp(1.9rem,1.3rem + 1.9vw,2.7rem);font-weight:600;line-height:1;letter-spacing:-.022em;color:var(--ink);display:block;margin-bottom:10px;font-variant-numeric:tabular-nums}
-.stat .num em{font-style:normal;color:var(--green)}
+.stat .num em{font-style:normal;color:var(--brand-blue)}
 .stat p{font-size:.9rem;color:var(--ink-2);line-height:1.5;margin:0}
 .stat cite{display:block;font-family:var(--mono);font-style:normal;font-size:.68rem;color:var(--ink-3);margin-top:11px;letter-spacing:.08em;text-transform:uppercase}
 @media (max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}}
@@ -175,17 +195,17 @@ strong{font-weight:650;color:var(--ink)}
 .card h3{margin-bottom:.45em}
 .card p{font-size:.95rem;color:var(--ink-2)}
 .card--link{text-decoration:none;color:inherit;display:block;transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease}
-.card--link:hover{border-color:var(--green);transform:translateY(-2px);box-shadow:var(--shadow);color:inherit}
-.card--link .more{display:inline-flex;align-items:center;gap:.4em;margin-top:16px;font-size:.88rem;font-weight:650;color:var(--green)}
+.card--link:hover{border-color:var(--brand-blue);transform:translateY(-2px);box-shadow:var(--shadow);color:inherit}
+.card--link .more{display:inline-flex;align-items:center;gap:.4em;margin-top:16px;font-size:.88rem;font-weight:650;color:var(--blue)}
 .section--dark .card{background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.13)}
-.section--dark .card p{color:#B9C6D8}
+.section--dark .card p{color:#C9C2DC}
 
 .icon-badge{
   width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
-  background:var(--green-soft);color:var(--green);margin-bottom:18px;
+  background:var(--blue-soft);color:var(--blue);margin-bottom:18px;
 }
 .icon-badge--clay{background:var(--clay-soft);color:var(--clay)}
-.section--dark .icon-badge{background:rgba(122,201,67,.15);color:var(--green-bright)}
+.section--dark .icon-badge{background:rgba(35,149,211,.18);color:var(--blue-lift)}
 
 /* ---------- prose ---------- */
 .prose h2{margin-top:1.9em}
@@ -193,10 +213,10 @@ strong{font-weight:650;color:var(--ink)}
 .prose h3{margin-top:1.7em}
 .prose ul,.prose ol{padding-left:1.25em;margin:0 0 1.1em}
 .prose li{margin-bottom:.5em}
-.prose li::marker{color:var(--green)}
+.prose li::marker{color:var(--brand-blue)}
 
 .callout{
-  border-left:3px solid var(--green);background:var(--green-soft);
+  border-left:3px solid var(--brand-blue);background:var(--blue-soft);
   padding:20px 24px;border-radius:0 var(--r) var(--r) 0;margin:28px 0;
 }
 .callout p{font-size:.97rem;margin-bottom:.7em}
@@ -207,7 +227,7 @@ strong{font-weight:650;color:var(--ink)}
 .tl{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:34px 0 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
 .tl-step{padding:26px 24px;border-right:1px solid var(--line);position:relative}
 .tl-step:last-child{border-right:0}
-.tl-step .day{font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:11px;display:block}
+.tl-step .day{font-family:var(--mono);font-size:.7rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--brand-purple);margin-bottom:11px;display:block}
 .tl-step:last-child .day{color:var(--clay)}
 .tl-step h4{margin-bottom:.45em}
 .tl-step p{font-size:.9rem;color:var(--ink-2);margin:0}
@@ -224,7 +244,7 @@ td:first-child{font-weight:600;white-space:nowrap}
 /* ---------- checklist ---------- */
 .checks{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 .checks li{display:flex;gap:13px;align-items:flex-start;font-size:.97rem;color:var(--ink-2)}
-.checks svg{flex:0 0 auto;margin-top:4px;color:var(--green)}
+.checks svg{flex:0 0 auto;margin-top:4px;color:var(--blue)}
 .checks strong{color:var(--ink);font-weight:650}
 
 /* ---------- FAQ ---------- */
@@ -249,7 +269,7 @@ details.qa .qa-body p:last-child{margin-bottom:0}
   font-family:var(--mono);font-size:.76rem;font-weight:400;letter-spacing:.02em;padding:7px 13px;border-radius:999px;
   background:var(--surface);border:1px solid var(--line-2);color:var(--ink-2);
 }
-.section--dark .pills li{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#CBD6E4}
+.section--dark .pills li{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#D8D2E6}
 
 /* ---------- map legend ---------- */
 .legend{display:flex;flex-wrap:wrap;gap:20px;margin-top:22px;font-size:.86rem;color:var(--ink-2)}
@@ -257,9 +277,9 @@ details.qa .qa-body p:last-child{margin-bottom:0}
 .swatch{width:14px;height:14px;border-radius:4px;flex:0 0 auto}
 
 /* ---------- CTA band ---------- */
-.cta-band{background:var(--navy-deep);color:#E7EDF5;border-radius:var(--r-lg);padding:clamp(38px,4.5vw,60px);text-align:center}
+.cta-band{background:var(--deep);color:#EAE6F4;border-radius:var(--r-lg);padding:clamp(38px,4.5vw,60px);text-align:center}
 .cta-band h2{color:#fff;max-width:19ch;margin-inline:auto}
-.cta-band p{color:#B9C6D8;max-width:56ch;margin-inline:auto}
+.cta-band p{color:#C9C2DC;max-width:56ch;margin-inline:auto}
 .cta-band .btn-row{justify-content:center}
 
 /* ---------- form ---------- */
@@ -272,25 +292,27 @@ details.qa .qa-body p:last-child{margin-bottom:0}
   width:100%;
 }
 .field textarea{min-height:120px;resize:vertical}
-.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green)}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--blue);outline-offset:1px;border-color:var(--blue)}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 @media (max-width:640px){.form-row{grid-template-columns:1fr}}
 
 /* ---------- sources ---------- */
 .sources{list-style:none;padding:0;margin:0;display:grid;gap:11px;font-size:.88rem;color:var(--ink-2)}
 .sources li{padding-left:1.4em;position:relative;line-height:1.55}
-.sources li::before{content:'↗';position:absolute;left:0;color:var(--green)}
+.sources li::before{content:'↗';position:absolute;left:0;color:var(--blue)}
 
 /* ---------- footer ---------- */
-.site-foot{background:var(--navy-deep);color:#9FB0C6;padding:64px 0 40px;font-size:.9rem}
+.site-foot{background:var(--deep);color:#B7AECF;padding:64px 0 40px;font-size:.9rem}
 .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.11)}
 .site-foot h4{color:#fff;font-family:var(--mono);font-weight:500;font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:16px}
-.site-foot a{color:#B9C6D8;text-decoration:none;display:block;padding:5px 0}
-.site-foot a:hover{color:var(--green-bright)}
-.site-foot .brand-name{color:#fff}
-.site-foot .brand-sub{color:#7E90A8}
-.foot-bottom{padding-top:26px;display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:space-between;align-items:center;font-size:.8rem;color:#7E90A8}
-.foot-note{margin-top:22px;font-size:.78rem;line-height:1.6;color:#7E90A8;max-width:70ch}
+.site-foot a{color:#C9C2DC;text-decoration:none;display:block;padding:5px 0}
+.site-foot a:hover{color:var(--blue-lift)}
+.brand--foot .brand-logo{height:40px}
+.site-foot .foot-parent{display:inline-block;margin-top:22px;padding:0}
+.site-foot .foot-parent img{height:26px;width:auto;opacity:.82;transition:opacity .15s ease}
+.site-foot .foot-parent:hover img{opacity:1}
+.foot-bottom{padding-top:26px;display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:space-between;align-items:center;font-size:.8rem;color:#9C93B8}
+.foot-note{margin-top:22px;font-size:.78rem;line-height:1.6;color:#9C93B8;max-width:70ch}
 @media (max-width:860px){.foot-grid{grid-template-columns:1fr 1fr;gap:30px}}
 @media (max-width:520px){.foot-grid{grid-template-columns:1fr}}
 
@@ -305,26 +327,26 @@ details.qa .qa-body p:last-child{margin-bottom:0}
 .center .lede{margin-inline:auto}
 
 .checks .small{display:block;margin-top:3px;color:var(--ink-3)}
-.section--dark .checks li{color:#B9C6D8}
+.section--dark .checks li{color:#C9C2DC}
 .section--dark .checks strong{color:#fff}
-.section--dark .checks .small{color:#8FA1B8}
-.section--dark .checks svg{color:var(--green-bright)}
+.section--dark .checks .small{color:#A79DC4}
+.section--dark .checks svg{color:var(--blue-lift)}
 
 .cta-band .btn--ghost{color:#fff;border-color:rgba(255,255,255,.34)}
 .cta-band .btn--ghost:hover{color:#fff;border-color:#fff;background:rgba(255,255,255,.09)}
-.cta-band .eyebrow{color:var(--green-bright)}
+.cta-band .eyebrow{color:var(--purple-lift)}
 .checks li > span > .small{display:block;margin-top:3px}
 
 /* ---------- polish & a11y ---------- */
 .bignum{
   font-family:var(--display);font-size:2.5rem;font-weight:600;line-height:1;
-  letter-spacing:-.022em;color:var(--green);display:block;margin-bottom:12px;
+  letter-spacing:-.022em;color:var(--brand-blue);display:block;margin-bottom:12px;
   font-variant-numeric:tabular-nums;
 }
 .lede,.prose p,.prose li{text-wrap:pretty}
 .prose p,.prose li{max-width:68ch}
 :where(a,button,summary,input,select,textarea):focus-visible{
-  outline:2.5px solid var(--green);outline-offset:2px;border-radius:4px;
+  outline:2.5px solid var(--blue);outline-offset:2px;border-radius:4px;
 }
 .nav a:focus-visible,.site-foot a:focus-visible{outline-offset:1px}
 @media (prefers-reduced-motion: reduce){
@@ -341,8 +363,9 @@ details.qa .qa-body p:last-child{margin-bottom:0}
 <body>
 <header class="site-head">
   <div class="wrap head-in">
-    <a class="brand" href="index.html"><svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 2.6 34.8 11.1v17L20 36.6 5.2 28.1v-17z" fill="#0E2038"/><path d="M13.4 20.3l4.6 4.6 8.6-9.2" stroke="#7AC943" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span><span class="brand-name">Enavima</span><span class="brand-sub">by Microgen Laboratories</span></span>
+    <a class="brand" href="index.html" aria-label="Enavima, by Microgen Laboratories, home">
+      <img class="brand-logo" src="assets/enavima-logo.png" alt="Enavima" width="780" height="305">
+      <span class="brand-sub">by Microgen<br>Laboratories</span>
     </a>
     <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     <nav class="nav" id="primary-nav" aria-label="Primary"><a href="congenital-cmv.html">About cCMV</a><a href="parents.html" class="is-active">Parents</a><a href="clinicians.html">Clinicians</a><a href="labs.html">Hospitals & Labs</a><a href="test.html">The Test</a><a href="about.html">About</a>
@@ -355,7 +378,7 @@ details.qa .qa-body p:last-child{margin-bottom:0}
   <div class="wrap">
     <span class="eyebrow">For parents &amp; expecting families</span>
     <h1>If you are pregnant, or your baby was just born</h1>
-    <p class="lede">There are two things worth knowing about CMV. One takes about a minute to learn and can lower your risk during pregnancy. The other has a deadline &mdash; roughly three weeks after your baby is born.</p>
+    <p class="lede">There are two things worth knowing about CMV. One takes about a minute to learn and can lower your risk during pregnancy. The other has a deadline, roughly three weeks after your baby is born.</p>
   </div>
 </section>
 
@@ -365,10 +388,10 @@ details.qa .qa-body p:last-child{margin-bottom:0}
       <div class="prose">
         <h2 class="mt-0">During pregnancy</h2>
         <p>CMV is a common virus. Most adults who catch it never feel sick. But a first infection during pregnancy can pass to your baby, and about <strong>1 in 3 pregnant women who become infected will pass it on</strong>.</p>
-        <p>The most common source is not another adult &mdash; it is toddler saliva and urine. If you have a young child at home, or you work in childcare, these habits matter most:</p>
+        <p>The most common source is not another adult. It is toddler saliva and urine. If you have a young child at home, or you work in childcare, these habits matter most:</p>
         <ul class="checks" style="margin:26px 0">
           <li><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Wash your hands with soap and water</strong> after changing a diaper, wiping a nose, or helping a child use the toilet.</span></li>
-          <li><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Do not share food, drinks or utensils</strong> with young children &mdash; no finishing their cup, no shared straws, no cleaning a pacifier in your mouth.</span></li>
+          <li><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Do not share food, drinks or utensils</strong> with young children. No finishing their cup, no shared straws, no cleaning a pacifier in your mouth.</span></li>
           <li><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Kiss on the forehead or cheek</strong> rather than on the lips, and avoid contact with saliva.</span></li>
           <li><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Clean toys and surfaces</strong> that have had saliva or urine on them.</span></li>
         </ul>
@@ -376,10 +399,10 @@ details.qa .qa-body p:last-child{margin-bottom:0}
       </div>
       <div class="prose">
         <h2 class="mt-0">In the first three weeks after birth</h2>
-        <p>Congenital CMV can only be confirmed with a test done in roughly the first <strong>21 days</strong> of life. After that, a positive test cannot tell anyone whether your baby was born with the infection or picked it up afterward &mdash; and that distinction is what determines whether treatment and follow-up are offered.</p>
+        <p>Congenital CMV can only be confirmed with a test done in roughly the first <strong>21 days</strong> of life. After that, a positive test cannot tell anyone whether your baby was born with the infection or picked it up afterward, and that distinction is what determines whether treatment and follow-up are offered.</p>
         <div class="callout callout--clay" style="margin-top:26px">
           <h4>The newborn hearing screen is not a CMV test</h4>
-          <p>They are two different things. Your baby can pass the hearing screen and still have congenital CMV. Hearing loss from cCMV often begins months or years later &mdash; well past the window when a test could have explained it.</p>
+          <p>They are two different things. Your baby can pass the hearing screen and still have congenital CMV. Hearing loss from cCMV often begins months or years later, well past the window when a test could have explained it.</p>
         </div>
         <p>If your state does not screen every newborn, testing generally happens only if your baby fails the hearing screen or has other signs. You can ask for it anyway.</p>
       </div>
@@ -396,7 +419,7 @@ details.qa .qa-body p:last-child{margin-bottom:0}
       <div class="card"><h4>1. &ldquo;Does our hospital test newborns for congenital CMV?&rdquo;</h4><p>Some states require it for every baby, some only after a failed hearing screen, and some not at all.</p></div>
       <div class="card"><h4>2. &ldquo;Can my baby be tested for CMV before we are discharged?&rdquo;</h4><p>A saliva or urine sample is the usual approach. Doing it before you go home is the simplest way not to miss the window.</p></div>
       <div class="card"><h4>3. &ldquo;If we are already home, how quickly can this be done?&rdquo;</h4><p>Count from your baby&rsquo;s date of birth. Day 21 is the deadline, not a guideline.</p></div>
-      <div class="card"><h4>4. &ldquo;If the test is positive, who follows my baby &mdash; and how often?&rdquo;</h4><p>A positive result should lead to a plan: audiology, ophthalmology, developmental follow-up, and a conversation about antiviral treatment.</p></div>
+      <div class="card"><h4>4. &ldquo;If the test is positive, who follows my baby, and how often?&rdquo;</h4><p>A positive result should lead to a plan: audiology, ophthalmology, developmental follow-up, and a conversation about antiviral treatment.</p></div>
     </div>
   </div>
 </section>
@@ -406,11 +429,11 @@ details.qa .qa-body p:last-child{margin-bottom:0}
     <span class="eyebrow">If the test comes back positive</span>
     <h2>A diagnosis is not a prognosis</h2>
     <div class="prose" style="margin-top:20px">
-      <p>Most babies born with congenital CMV grow up without any related health problem. About <strong>1 in 5</strong> will have a birth defect or long-term issue &mdash; which means four out of five will not. A positive result does not tell you which group your child is in. It tells you that someone will be watching closely enough to catch it early if something develops.</p>
+      <p>Most babies born with congenital CMV grow up without any related health problem. About <strong>1 in 5</strong> will have a birth defect or long-term issue, which means four out of five will not. A positive result does not tell you which group your child is in. It tells you that someone will be watching closely enough to catch it early if something develops.</p>
       <p>What usually follows a positive test:</p>
       <ul>
         <li><strong>Confirmation.</strong> A saliva result is typically confirmed on urine.</li>
-        <li><strong>A clinical evaluation</strong> looking for signs at birth &mdash; growth, head size, liver and spleen, blood counts, and often a hearing and eye exam.</li>
+        <li><strong>A clinical evaluation</strong> looking for signs at birth, such as growth, head size, liver and spleen, blood counts, and often a hearing and eye exam.</li>
         <li><strong>A treatment conversation.</strong> Antiviral medication may be considered for babies with signs at birth; it has real side effects and is not right for every baby.</li>
         <li><strong>Ongoing hearing and vision checks</strong> through early childhood, because hearing loss can start later.</li>
       </ul>
@@ -430,7 +453,7 @@ details.qa .qa-body p:last-child{margin-bottom:0}
     <div style="margin-top:26px">
       <details class="qa"><summary>Did I do something wrong?</summary><div class="qa-body"><p>No. CMV is one of the most common viruses there is, most people who carry it never had a symptom, and the prevention advice is not something most women are ever given. Congenital CMV is a public health information failure far more than it is a parenting one.</p></div></details>
       <details class="qa"><summary>Can I still breastfeed if I have CMV?</summary><div class="qa-body"><p>CMV can pass through breast milk, but for a full-term baby the benefits of breastfeeding are generally considered to outweigh that risk. For premature or very low birth weight infants the calculus can differ. This is a conversation to have with your pediatrician about your specific baby.</p></div></details>
-      <details class="qa"><summary>My baby is already older than three weeks. What now?</summary><div class="qa-body"><p>A CMV test can still be run, but it can no longer establish that the infection was congenital. In some cases a stored newborn dried blood spot can be tested retrospectively, though this method misses some true cases. Talk to your pediatrician &mdash; and if hearing or development is the concern, pursue that evaluation on its own merits regardless of CMV status.</p></div></details>
+      <details class="qa"><summary>My baby is already older than three weeks. What now?</summary><div class="qa-body"><p>A CMV test can still be run, but it can no longer establish that the infection was congenital. In some cases a stored newborn dried blood spot can be tested retrospectively, though this method misses some true cases. Talk to your pediatrician, and if hearing or development is the concern, pursue that evaluation on its own merits regardless of CMV status.</p></div></details>
       <details class="qa"><summary>Is there a vaccine?</summary><div class="qa-body"><p>Not at present. Several CMV vaccine candidates have been studied and development continues, but none is currently approved and available. Prevention today means the hygiene steps above; detection means testing inside the newborn window.</p></div></details>
       <details class="qa"><summary>Will insurance cover the test?</summary><div class="qa-body"><p>It varies by state, plan and whether your state mandates screening. In states with universal newborn screening it is part of the state program. Ask your hospital&rsquo;s billing office before discharge rather than after.</p></div></details>
     </div>
@@ -455,10 +478,13 @@ details.qa .qa-body p:last-child{margin-bottom:0}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="brand" href="index.html" style="color:#fff"><svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 2.6 34.8 11.1v17L20 36.6 5.2 28.1v-17z" fill="#0E2038"/><path d="M13.4 20.3l4.6 4.6 8.6-9.2" stroke="#7AC943" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span><span class="brand-name">Enavima</span><span class="brand-sub">by Microgen Laboratories</span></span>
+        <a class="brand brand--foot" href="index.html" aria-label="Enavima home">
+          <img class="brand-logo" src="assets/enavima-logo-white.png" alt="Enavima" width="780" height="305">
         </a>
-        <p style="margin-top:18px;max-width:34ch;color:#9FB0C6">Point-of-care detection for congenital cytomegalovirus, inside the window that matters.</p>
+        <p style="margin-top:18px;max-width:34ch;color:#B7AECF">Point-of-care detection for congenital cytomegalovirus, inside the window that matters.</p>
+        <a class="foot-parent" href="https://microgenlabs.com/" target="_blank" rel="noopener" aria-label="Microgen Laboratories">
+          <img src="assets/microgen-logo-white.png" alt="Microgen Laboratories" width="480" height="110">
+        </a>
       </div>
       <div>
         <h4>Learn</h4>
@@ -477,14 +503,14 @@ details.qa .qa-body p:last-child{margin-bottom:0}
         <a href="mailto:info@microgenlabs.com">info@microgenlabs.com</a>
         <a href="tel:+14099356700">409-935-6700</a>
         <a href="https://microgenlabs.com/" target="_blank" rel="noopener">microgenlabs.com</a>
-        <p style="margin-top:10px;color:#7E90A8">903 Texas Avenue<br>La Marque, TX 77568</p>
+        <p style="margin-top:10px;color:#9C93B8">903 Texas Avenue<br>La Marque, TX 77568</p>
       </div>
     </div>
-    <p class="foot-note"><strong style="color:#B9C6D8">Regulatory:</strong> Enavima point-of-care assays are under development at Microgen Laboratories. They are not currently available for sale and have not been cleared or approved by the U.S. Food and Drug Administration.</p>
-    <p class="foot-note"><strong style="color:#B9C6D8">Medical disclaimer:</strong> This site provides general health information and is not medical advice. It does not replace consultation with a qualified healthcare professional. If you have concerns about CMV in pregnancy or in a newborn, contact your obstetrician, midwife or pediatrician &mdash; the diagnostic window is short.</p>
+    <p class="foot-note"><strong style="color:#C9C2DC">Regulatory:</strong> Enavima point-of-care assays are under development at Microgen Laboratories. They are not currently available for sale and have not been cleared or approved by the U.S. Food and Drug Administration.</p>
+    <p class="foot-note"><strong style="color:#C9C2DC">Medical disclaimer:</strong> This site provides general health information and is not medical advice. It does not replace consultation with a qualified healthcare professional. If you have concerns about CMV in pregnancy or in a newborn, contact your obstetrician, midwife or pediatrician. The diagnostic window is short.</p>
     <div class="foot-bottom">
       <span>&copy; 2026 Microgen Laboratories. All rights reserved.</span>
-      <span>Statistics sourced from the U.S. CDC, AAP and AAO&ndash;HNS.</span>
+      <span>Statistics sourced from the U.S. CDC, AAP and AAO-HNS.</span>
     </div>
   </div>
 </footer>
